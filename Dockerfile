@@ -3,4 +3,4 @@ WORKDIR /rony-commerce
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} rony-commerce.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","rony-commerce.jar"]
+ENTRYPOINT ["java","-jar","rony-comme   rce.jar"]
